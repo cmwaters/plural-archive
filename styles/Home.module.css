@@ -43,11 +43,6 @@
   font-size: 4rem;
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
 .button {
   padding: 0.5rem;
   text-align: center;
@@ -68,6 +63,18 @@
   width: 20px;
   height: 500px;
   writing-mode: vertical-lr;
+}
+
+#circle {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: black;
 }
 
 @media (max-width: 600px) {
